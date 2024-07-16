@@ -6,7 +6,7 @@ def divide(first, second):
         if first > 0:
             result = float(inf)
         elif first < 0:
-            result = (-inf)
+            result = float(-inf)
     else:
         result = first / second
     return result
